@@ -25,5 +25,7 @@ logo: "/assets/images/pylori_logo.png"
 nav_external_links:
   - title: buzzpirat
     url: https://buzzpirat.com/
+  - title: github
+    url: https://github.com/therealdreg/
 
 footer_content: "<a href=\"https://www.rootkit.es\">rootkit.es</a>"
