@@ -1,9 +1,9 @@
 title: rootkit.es
 description: rootkit.es
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 theme: just-the-docs
 
-url: https://therealdreg.github.io/newrootkitweb
+url: https://rootkit.es
 
 include:
   - "images"
