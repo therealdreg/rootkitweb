@@ -4,10 +4,13 @@
     document.addEventListener("DOMContentLoaded", function() {
       // Selecciona el elemento footer con la clase 'site-footer'
       var footer = document.querySelector('.site-footer');
-      
+  
       // Verifica si el footer existe y contiene el texto específico
-      if (footer && footer.innerHTML.includes('Just the Docs')) {
+      if (footer && footer.textContent.includes('Just the Docs, a documentation theme for Jekyll')) {
+        console.log("Ocultando el footer..."); // Mensaje de depuración
         footer.style.display = 'none'; // Oculta el footer
+      } else {
+        console.log("No se encontró el texto específico en el footer."); // Mensaje de depuración si no se encuentra el texto
       }
     });
   </script>
