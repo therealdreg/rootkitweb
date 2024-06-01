@@ -1,3 +1,14 @@
 {%- if site.footer_content -%}
   <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+      // Selecciona el elemento footer con la clase 'site-footer'
+      var footer = document.querySelector('.site-footer');
+      
+      // Verifica si el footer existe y contiene el texto específico
+      if (footer && footer.innerHTML.includes('Just the Docs')) {
+        footer.style.display = 'none'; // Oculta el footer
+      }
+    });
+  </script>
 {%- endif -%}
