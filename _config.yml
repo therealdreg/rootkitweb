@@ -15,8 +15,8 @@ gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#aux_links:
+  #Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 permalink: pretty
 
